@@ -45,7 +45,6 @@ EXAMPLES
 ========
 A practical example to use the same vcl code supporting production, staging or development environments.
 
-``` 
         import env;
 
 	backend default {
@@ -72,7 +71,7 @@ A practical example to use the same vcl code supporting production, staging or d
 			set req.backend = default;
 		}
         }
-```
+
 Running this command will use different backends:
 
 ENVIRONMENT=production /etc/init.d/varnish start
