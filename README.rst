@@ -1,7 +1,8 @@
 ============
 vmod_env
 ============
-
+.. image:: https://travis-ci.org/tjakobsson/libvmod-env.svg
+    :target: https://travis-ci.org/tjakobsson/libvmod-env
 ----------------------
 Varnish ENV Module
 ----------------------
