@@ -75,6 +75,7 @@ A practical example to use the same vcl code supporting production, staging or d
 Running this command will use different backends:
 
 ENVIRONMENT=production /etc/init.d/varnish start
+
 ENVIRONMENT=staging /etc/init.d/varnish start
 
 COPYRIGHT
